@@ -7,6 +7,39 @@
 跳表在**有序链表**的基础上，增加了多级索引，通过索引位置的几个跳转，实现数据的快速定位。
 当数据量很大时，跳表的查找复杂度就是 O(logN)。
 
+### Array
+* 插入 O(n)
+* 删除 O(n)
+* 随机访问 O(1)
+
+### LinkedList
+* 插入 O(1)
+* 删除 O(1)
+* 随机访问 O(n)
+
+## 操作受限的线性表
+### Stack
+* 先入后出 FILO(First In, Last Out)
+* 适合变量计算前后具有相关性的算法
+
+### Queue
+* 先入先出 FIFO(First In, First Out)
+* 染色问题
+
+### Deque
+* 双端队列 可以从两端添加、删除、获取元素
+* LRU缓存
+
+## 优化数据结构
+### 跳表
+* 插入 O(logn)   *需要判断插入索引*
+* 删除 O(logn)   *需要判断删除索引*
+* 随机访问 O(logn)*直接索引实现快速访问*
+* **基于有序链表**
+* 索引可以分级，同一级索引依然有序
+* Redis 的Sorted Set就是采用跳表完成的
+
+
 # 作业
 * ![用 add first 或 add last 这套新的 API 改写 Deque 的代码](./DequeDemo.java)
 * ![分析 Queue 和 Priority Queue 的源码](./QueueSourceAnalyzer.md)
