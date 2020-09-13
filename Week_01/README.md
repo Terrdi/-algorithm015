@@ -43,15 +43,15 @@
 
 
 # 作业
-* ![用 add first 或 add last 这套新的 API 改写 Deque 的代码](./DequeDemo.java)
-* ![分析 Queue 和 Priority Queue 的源码](./QueueSourceAnalyzer.md)
-* ![删除排序数组中的重复项](./P26Solution.java)
-* ![旋转数组](./P189Solution.java)
-* ![合并两个有序链表](./P21Solution.java)
-* ![合并两个有序数组](./P88Solution.java)
-* ![两数之和](./P1Solution.java)
-* ![移动零](./P283Solution.java)
-* ![加一](./P66Solution.cpp)
-* ![设计循环双端队列](./MyCircularDeque.java)
-* ![接雨水](./P66Solution.cpp)
+* [用 add first 或 add last 这套新的 API 改写 Deque 的代码](./DequeDemo.java)
+* [分析 Queue 和 Priority Queue 的源码](./QueueSourceAnalyzer.md)
+* [删除排序数组中的重复项](./P26Solution.java)
+* [旋转数组](./P189Solution.java)
+* [合并两个有序链表](./P21Solution.java)
+* [合并两个有序数组](./P88Solution.java)
+* [两数之和](./P1Solution.java)
+* [移动零](./P283Solution.java)
+* [加一](./P66Solution.cpp)
+* [设计循环双端队列](./MyCircularDeque.java)
+* [接雨水](./P66Solution.cpp)
 
