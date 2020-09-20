@@ -354,3 +354,6 @@ private int bsearchInternally(int[] a, int low, int high, int value) {
 * [寻找旋转排序数组中的最小值](./P153Solution.java)
 * [单词接龙 II](./P126Solution.java)
 * [跳跃游戏 II](./P45Solution.java)
+
+*************************
+**单词接龙的两道题一开始用深度优先并且没有使用集合总是超时, 查看答案的广度优先搭配集合才写出来, 对深度/广度优先的理解不够, 还需要加强。**
